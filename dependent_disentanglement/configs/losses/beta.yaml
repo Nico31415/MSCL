@@ -1,0 +1,4 @@
+rec_dist: bernoulli
+anneal_steps: 7000
+name: betavae
+beta: 4

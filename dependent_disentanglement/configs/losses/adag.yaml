@@ -1,0 +1,12 @@
+rec_dist: bernoulli
+anneal_steps: 7000
+name: adagvae
+annealing: higgins
+thresh_mode: kl
+average_mode: gvae
+thresh_ratio: 0.5
+C_fin: 25
+C_init: 0
+gamma: 100
+beta: 6
+log_components: False

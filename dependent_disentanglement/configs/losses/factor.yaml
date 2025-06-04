@@ -1,0 +1,10 @@
+rec_dist: bernoulli
+anneal_steps: 7000
+name: factorvae
+gamma: 20
+discr_lr: 0.0001
+discr_betas: [0.5, 0.9]
+discr_neg_slope: 0.2
+discr_latent_dim: 10
+discr_hidden_units: 1000
+log_components: False

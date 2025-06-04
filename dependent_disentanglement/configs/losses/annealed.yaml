@@ -1,0 +1,7 @@
+rec_dist: bernoulli
+anneal_steps: 100000
+name: annealedvae
+C_init: 0
+C_fin: 25
+gamma: 1000
+log_components: False

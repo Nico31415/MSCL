@@ -1,0 +1,7 @@
+rec_dist: bernoulli
+anneal_steps: 7000
+name: betatcvae
+alpha: 1
+beta: 6
+gamma: 1
+is_mss: True

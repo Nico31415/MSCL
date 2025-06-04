@@ -1,0 +1,12 @@
+batch_size: 256
+n_epochs: 50
+save_epochs: 10
+optimizer:    
+    optimizer: Adam
+    base_batch_size: 64
+    base_lr: 0.0001
+    weight_decay: 0.00004
+scheduler:
+    gamma: 0.1
+    scheduler: StepLR
+    step_size: 20
